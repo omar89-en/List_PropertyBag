@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "property-bag",
+    "libraryId": "2f770d58-e028-4388-b84a-588e9aca388c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "property-bag",
+    "solutionShortDescription": "property-bag description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

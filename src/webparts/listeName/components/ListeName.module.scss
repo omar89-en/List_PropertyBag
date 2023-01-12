@@ -1,0 +1,37 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(
+      --link
+    ); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(
+        --linkHovered
+      ); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.list {
+  display: contents;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.list1 {
+  display: inline;
+  list-style-type: none;
+  margin-top: 34px;
+}
